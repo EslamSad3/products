@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alkatra', cursive;
+    box-sizing: border-box;
+}
+
+
+#card{
+    display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+padding: 2rem;
+}
+.card{
+    height: auto;
+    margin: 1rem;
+    text-align: center;
+    transition: scale 0.3s;
+    background-color: #e7eaf6;
+    border: none;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.568);
+    color: #38598b;
+}
+
+.card:hover{
+    scale: 1.1;
+}
+.card img{
+    max-width: 12rem;
+    max-height: 10rem;
+    margin: auto;
+    padding: 1rem;
+    transition:  0.3s ;
+    
+}
+.card:hover img{
+    scale: 1.1;
+}
+button{
+    margin-bottom: 1rem;
+}
